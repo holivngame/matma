@@ -45,3 +45,6 @@ button:hover {
 #error-message1.hidden, #error-message2.hidden, #error-message3.hidden {
   display: none;
 }
+thêm #page1{
+  background-image: url("image.png");
+}
