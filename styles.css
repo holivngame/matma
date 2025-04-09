@@ -45,6 +45,17 @@ button:hover {
 #error-message1.hidden, #error-message2.hidden, #error-message3.hidden {
   display: none;
 }
-thêm #page1{
-  background-image: url("image.png");
+#page1{
+  background-image: url("background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 }
