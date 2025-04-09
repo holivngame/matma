@@ -39,18 +39,8 @@
       }
     }
 
-    window.onload = () => {
-      document.getElementById("startButton").onclick = () => {
-        const teamName = document.getElementById("team-name").value.trim();
-        if (teamName !== "") {
-          nextPage(2);
-        } else {
-          alert("Vui lòng nhập tên đội chơi!");
-        }
-      };
-
-      nextPage(1);
-    };
+    // Bắt đầu ở trang đầu tiên
+    nextPage(1);
   </script>
 </body>
 </html>
