@@ -39,8 +39,7 @@
       }
     }
 
-    // Bắt đầu ở trang đầu tiên
-    nextPage(1);
+
   </script>
 </body>
 </html>
